@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>MiniHTTPd Test</title>
+    <title>MiniHTTPd Home</title>
 </head>
 <body>
-    <h1>Servidor C con Epoll Funcionando</h1>
+    <div class="welcome-container">
+        <main class="welcome-card">
+            <h1>🚀 MiniHTTPd</h1>
+            <p class="tagline">Servidor Web HTTP/1.1 Asíncrono en C</p>
+            <hr>
+            <p class="description">
+                ¡Bienvenido! Esta página confirma que el servidor está arriba, 
+                escuchando en el puerto <code>8080</code> y gestionando las conexiones 
+                de manera correcta mediante el lazo de eventos de <code>epoll</code>.
+            </p>
+            <div class="status-badge">
+                <span class="dot"></span> Status: 200 OK
+            </div>
+        </main>
+    </div>
 </body>
 </html>
